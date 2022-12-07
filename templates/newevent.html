@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    New Event
+{% endblock %}
+
+{% block main %}
+
+<!--For creating new events-->
+
+<form action="/newevent" method="post">
+    <div class="mb-3 align-items-center">
+        <p>Create a new event. Optionally, specify a start and end date/time. <br>If not, common times will be searched for within the next two weeks.</p>
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="eventname" name="eventname" placeholder="Event Name" type="text">
+        Start time:
+        <input class="my-3" type="datetime-local" id="starttime" name="starttime" placeholder="Start Time" min="2017-06-01T08:30">
+        <br>
+        End time: &nbsp;
+        <input type="datetime-local" id="endtime" name="endtime" placeholder="End Time">
+    </div>
+    <button class="btn btn-dark" type="submit">Create event</button>
+    <p>{{ apology }}</p>
+</form>    
+
+{% endblock %}

@@ -1,0 +1,31 @@
+@import './base.css';
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(148, 189, 255);
+  transition: 0.4s;
+}
+
+ul.nav a:hover 
+{ 
+    background-color: rgb(148, 189, 255) !important; 
+    transition: 0.4s;
+}
+
+table {
+    align: centre;
+}
