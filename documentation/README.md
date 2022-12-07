@@ -4,6 +4,8 @@
 Watch my video [here:](https://youtu.be/F2_FjIQKgHg)
 Or [here](https://www.loom.com/share/b3e1718e0bff474e80cdfa9a27d3edb4), on Loom (quality might be better).
 
+This project is available on github under ethanctan/commontime_submission.
+
 I created this app using Flask for the backend and HTML, (Bootstrap) CSS and Javascript for the frontend. 
 
 The following files are key to the functioning of this app:
